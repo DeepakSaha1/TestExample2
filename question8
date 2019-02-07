@@ -1,0 +1,16 @@
+ttn@animesh-deepak:~/cloneExercise2$ git clone https://github.com/DeepakSaha1/TestExample2
+Cloning into 'TestExample2'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 15 (delta 0), reused 15 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), done.
+
+ttn@animesh-deepak:~/cloneExercise2$ ls
+TestExample2
+
+ttn@animesh-deepak:~/cloneExercise2$ cd TestExample2/
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ ls
+question7  readme  testFile
+
