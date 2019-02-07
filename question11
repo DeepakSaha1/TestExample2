@@ -1,0 +1,42 @@
+ttn@animesh-deepak:~/Exercise2$ mkdir foo
+ttn@animesh-deepak:~/Exercise2$ touch db.sql
+ttn@animesh-deepak:~/Exercise2$ touch dbTabel.sql
+
+ttn@animesh-deepak:~/Exercise2$ ls
+db.sql       foo         question7  question9  testFile
+dbTabel.sql  question10  question8  readme     testIgnore.txt
+ttn@animesh-deepak:~/Exercise2$ git commit -m "Ignore a few files to be checked in"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	.gitignore
+
+nothing added to commit but untracked files present
+
+ttn@animesh-deepak:~/Exercise2$ git add .gitignore
+ttn@animesh-deepak:~/Exercise2$ git commit -m "Ignore a few files to be checked in"
+[master a7a4167] Ignore a few files to be checked in
+ 1 file changed, 3 insertions(+)
+ create mode 100644 .gitignore
+
+ttn@animesh-deepak:~/Exercise2$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:DeepakSaha1/TestExample2.git
+   fbae63e..a7a4167  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ttn@animesh-deepak:~/Exercise2$ ls
+db.sql       foo         question7  question9  testFile
+dbTabel.sql  question10  question8  readme     testIgnore.txt
+
+ttn@animesh-deepak:~/Exercise2$ git add db.sql
+The following paths are ignored by one of your .gitignore files:
+db.sql
+Use -f if you really want to add them.
+
