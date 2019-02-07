@@ -1,0 +1,5 @@
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git branch testBranch
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git checkout testBranch
+Switched to branch 'testBranch'
+
