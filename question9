@@ -1,0 +1,16 @@
+ttn@animesh-deepak:~/Exercise2$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:DeepakSaha1/TestExample2
+   672c103..ef42458  master     -> origin/master
+Updating 672c103..ef42458
+Fast-forward
+ question8 | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 question8
+
+ttn@animesh-deepak:~/Exercise2$ ls
+question7  question8  readme  testFile
