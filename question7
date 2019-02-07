@@ -1,0 +1,19 @@
+ttn@animesh-deepak:~/Exercise2$ cat testFile 
+changes will be made
+undo this line
+Mast Maza aa Raha
+End
+
+ttn@animesh-deepak:~/Exercise2$ gedit testFile 
+ttn@animesh-deepak:~/Exercise2$ cat testFile 
+changes will be made
+undo this line
+End
+
+ttn@animesh-deepak:~/Exercise2$ git checkout testFile
+ttn@animesh-deepak:~/Exercise2$ cat testFile 
+changes will be made
+undo this line
+Mast Maza aa Raha
+End
+
