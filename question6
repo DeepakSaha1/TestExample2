@@ -1,0 +1,13 @@
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git remote -v
+origin	https://github.com/DeepakSaha1/TestExample2 (fetch)
+origin	https://github.com/DeepakSaha1/TestExample2 (push)
+=====================================
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git remote rm origin
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git remote -v
+======================================
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git remote add origin https://github.com/deepaksaha1/TestExample2
+======================================
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git remote -v
+origin	https://github.com/deepaksaha1/TestExample2 (fetch)
+origin	https://github.com/deepaksaha1/TestExample2 (push)
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$
