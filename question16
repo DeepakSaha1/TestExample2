@@ -1,0 +1,10 @@
+tn@animesh-deepak:~/cloneExercise2/TestExample2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+  ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git commit -m "merge conflict fixed"
+  [master a49748b] merge conflict fixed
+  
