@@ -15,3 +15,9 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/deepaksaha1/TestExample2
    bc763cf..4f03b91  testBranch -> testBranch
 Branch 'testBranch' set up to track remote branch 'testBranch' from 'origin'.
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
