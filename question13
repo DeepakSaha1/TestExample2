@@ -5,4 +5,9 @@ ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git commit -m "push changes to
 [master f15eae0] push changes to git
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 question13
-ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git push -u origin master
+
+ ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git checkout master
+ Switched to branch 'master'
+ Your branch and 'origin/master' have diverged,
+ and have 3 and 1 different commits each, respectively.
+   (use "git pull" to merge the remote branch into yours)
