@@ -1,0 +1,8 @@
+$ sudo apt-get update
+$ sudo apt-get install git
+
+$ git --version
+git version 2.9.2
+
+$ git config --global user.name "deepak.saha"
+$ git config --global user.email "deepaksaha1@gmail.com"
