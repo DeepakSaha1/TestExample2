@@ -1,0 +1,8 @@
+atom question13
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git add question13
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git commit -m "push changes to git"
+[master f15eae0] push changes to git
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 question13
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git push -u origin master
