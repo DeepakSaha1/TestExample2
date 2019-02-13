@@ -1,5 +1,4 @@
 changes are done...........
-<<<<<<< Updated upstream
 
 
 ttn@animesh-deepak:TestExample2 (master)$ git status
@@ -32,6 +31,10 @@ Untracked files:
 	question17
 
 nothing added to commit but untracked files present (use "git add" to track)
-ttn@animesh-deepak:TestExample2 (master)$ 
-=======
->>>>>>> Stashed changes
+ttn@animesh-deepak:TestExample2 (master)$
+
+====================================
+stash@{0}: WIP on master: 5502fb5 branch color change
+ttn@animesh-deepak:TestExample2 (master)$ git stash pop
+Auto-merging question17
+CONFLICT (add/add): Merge conflict in question17
