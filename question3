@@ -1,0 +1,11 @@
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ touch question3
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ atom question3
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git add question3
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git commit -m "Add files to the repository"
+[master 34dc048] Add files to the repository
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 question3
+
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$ git push -u origin master
+ttn@animesh-deepak:~/cloneExercise2/TestExample2$
