@@ -3,3 +3,10 @@ Hello line 2
 Hello line 3 //deleted// new text added
 Hello line 4
 Hello line 5
+
+tn@animesh-deepak:~/cloneExercise2/TestExample2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
